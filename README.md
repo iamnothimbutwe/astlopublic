@@ -109,33 +109,33 @@ Or go to the releases page for the public repo to astlo and download the release
 
 
 ### CLI: Command Line Interface
-! [[python IDE](assets/hello25.jpg)](assets/hello25.jpg)
+! [[terminal](assets/hello25.jpg)](assets/hello25.jpg)
 
-! [[python IDE](assets/hello26.jpg)](assets/hello26.jpg)
+! [[terminal](assets/hello26.jpg)](assets/hello26.jpg)
 
-! [[python IDE](assets/hello27.jpg)](assets/hello27.jpg)
+! [[terminal](assets/hello27.jpg)](assets/hello27.jpg)
 
-! [[python IDE](assets/hello28.jpg)](assets/hello28.jpg)
+! [[terminal](assets/hello28.jpg)](assets/hello28.jpg)
 
-! [[python IDE](assets/hello29.jpg)](assets/hello29.jpg)
+! [[terminal](assets/hello29.jpg)](assets/hello29.jpg)
 
-! [[python IDE](assets/hello30.jpg)](assets/hello30.jpg)
+! [[terminal](assets/hello30.jpg)](assets/hello30.jpg)
 
-! [[python IDE](assets/hello31.jpg)](assets/hello31.jpg)
+! [[terminal](assets/hello31.jpg)](assets/hello31.jpg)
 
-! [[python IDE](assets/hello32.jpg)](assets/hello32.jpg)
+! [[terminal](assets/hello32.jpg)](assets/hello32.jpg)
 
-! [[python IDE](assets/hello33.jpg)](assets/hello33.jpg)
+! [[terminal](assets/hello33.jpg)](assets/hello33.jpg)
 
-! [[python IDE](assets/hello34.jpg)](assets/hello34.jpg)
+! [[terminal](assets/hello34.jpg)](assets/hello34.jpg)
 
-! [[python IDE](assets/hello35.jpg)](assets/hello35.jpg)
+! [[terminal](assets/hello35.jpg)](assets/hello35.jpg)
 
-! [[python IDE](assets/hello36.jpg)](assets/hello36.jpg)
+! [[terminal](assets/hello36.jpg)](assets/hello36.jpg)
 
-! [[python IDE](assets/hello37.jpg)](assets/hello37.jpg)
+! [[terminal](assets/hello37.jpg)](assets/hello37.jpg)
 
-! [[python IDE](assets/hello38.jpg)](assets/hello38.jpg)
+! [[terminal](assets/hello38.jpg)](assets/hello38.jpg)
 
 ### other Features
 
