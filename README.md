@@ -57,8 +57,11 @@ is has a massive orbital inclination i approx 44°, it is "diving" deep below th
 use pip install 'whl' to install the whl once recieved.
 Or go to the releases page for the public repo to astlo and download the release then install using pip install.
 
-or direct download:
+or direct download from terminal:
 pip install https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.58.43/astlo-5.58.43-py3-none-any.whl
+
+download from browser:
+https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.58.43/astlo-5.58.43-py3-none-any.whl
 ```
 
 ### QUICK Start: SDK & Methods
