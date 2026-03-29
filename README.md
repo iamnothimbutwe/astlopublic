@@ -113,6 +113,10 @@ https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.58.43/astlo-5
 
 ! [[python IDE](assets/hello24.jpg)](assets/hello24.jpg)
 
+! [[python IDE](assets/hello40.jpg)](assets/hello40.jpg)
+
+! [[python IDE](assets/hello41.jpg)](assets/hello41.jpg)
+
 
 ### CLI: Command Line Interface
 ! [[terminal](assets/hello25.jpg)](assets/hello25.jpg)
@@ -143,9 +147,11 @@ https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.58.43/astlo-5
 
 ! [[terminal](assets/hello38.jpg)](assets/hello38.jpg)
 
-### other Features
+! [[terminal](assets/hello39.jpg)](assets/hello39.jpg)
 
-​- No heavy Dependencies: 0% external dependencies. Written in pure Python for maximum portability and zero-latency startup in terminal environments (optimized for Termux).
+### other Features
+- full real time Oisculating elements which can be viewed both from the CLI and the SDK through the methods. 
+​- heavy Dependencies: 0% external dependencies. Written in pure Python for maximum portability and zero-latency startup in terminal environments (optimized for Termux).
 - Epoch: J2000 heliocentric ecliptic
 - Custom Bisection/Lambert solver for \Delta V optimization.
 - ​Custom Ephemeris: No SPICE kernels required. High-precision position and velocity vectors calculated from custom-built analytical models.
