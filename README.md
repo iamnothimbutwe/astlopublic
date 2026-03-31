@@ -5,11 +5,11 @@ An extensible orbital mechanics library for tracking the shrapnel.
 CLI + SDK.
 Written in pure Python (with future matplotlib/numpy support)
 
-*Copyright © 2026 Mark Macharia [@iamnothimbutwe both on Github and Gitlab/Macharia]
+*Copyright © 2026 Macharia [@iamnothimbutwe both on github and gitlab.
 *All rights reserved.
 
 *Unauthorized copying, modification, distribution, or commercial use of this software (or substantial portions of it) is strictly prohibited without express written permission from the author.
-*License 2: MIT
+*License two: MIT
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
