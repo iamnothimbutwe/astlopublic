@@ -1,7 +1,7 @@
 # astlo
 
 **A real-time and still developing Astronomy/Astrophysics/celestial orbital mechanics engine**
-An extensible orbital mechanics library for tracking the shrapnel.
+An extensible curently focused on orbital mechanics library for tracking the debris.
 CLI + SDK.
 Written in pure Python (with future matplotlib/numpy support)
 
@@ -9,7 +9,7 @@ Written in pure Python (with future matplotlib/numpy support)
 *All rights reserved.
 
 *Unauthorized copying, modification, distribution, or commercial use of this software (or substantial portions of it) is strictly prohibited without express written permission from the author.
-*License two: MIT
+*License two: another Copyright notice
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
