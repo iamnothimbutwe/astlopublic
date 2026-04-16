@@ -3,7 +3,7 @@
 **A real-time and still developing Astronomy/Astrophysics/celestial orbital mechanics engine**
 An extensible curently focused on orbital mechanics library for tracking the debris.
 CLI + SDK.
-Written in pure Python (with future matplotlib/numpy support)
+Written in pure Python with plotext and optional matplotlib and numpy support
 
 *Copyright © 2026 Macharia [@iamnothimbutwe both on github and gitlab.
 *All rights reserved.
@@ -42,13 +42,14 @@ Future plans:
 - Email markmacgh@gmail.com/hecateare@gmail.com
 - Github and Gitlab both @iamnothimbutwe
 
->...**astlo was and is being developed on Linux from a mobile phone**...
+>...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds 💚👀.
 
 ### Project Status
-- Pure Python (no numpy,astropy,matplotlib) but numpy will be integrated later..
+- No astropy
+- as of astlo v7, Pure Python with plotext and optional numpy and matplotlib, numpy and matplotlib are avilable for 3D visuals.
 - Real-time barycentric shifts implemented
 - SSB + Heliocentric + perifocal for full periods                     - Terminal plotting with plotext: in some orbits like Eris, Because Er
-is has a massive orbital inclination i approx 44°, it is "diving" deep below the ecliptic plane. the program only plots X and Y, you will be looking at the shadow of the orbit, not the actual 3D length. some of the distance is shifted to the Z axis.                               - numpy and matplotlib for Z axis to be integrated later
+is has a massive orbital inclination i approx 44°, it is "diving" deep below the ecliptic plane. the program only plots X and Y, you will be looking at the shadow of the orbit, not the actual 3D length. some of the distance is shifted to the Z axis.                               - supports optional numpy and matplotlib for 3D visuals..
 
 ### Installation
 
@@ -157,10 +158,10 @@ https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.61.48/astlo-5
 - Epoch: J2000 heliocentric ecliptic
 - Custom Bisection/Lambert solver for \Delta V optimization.
 - ​Custom Ephemeris: No SPICE kernels required. High-precision position and velocity vectors calculated from custom-built analytical models.
-​Independence: No astropy or numpy in the core engine. All 64-bit vector math is handled via internal classes.
-- ​CLI Visualization: Real-time orbital plotting rendered directly in the terminal without matplotlib.CLI-based ASCII/Block rendering for real-time orbital plotting (Optimized for Termux/VT100).
+​Independence: No astropy or numpy in the core engine. All 64-bit vector math is handled via internal classes. However there is an optional numpy and matplotlib support for 3D visualizations as of astlo v7
+- ​CLI Visualization: Real-time orbital plotting rendered directly in the terminal without matplotlib.CLI-based ASCII/Block rendering for real-time orbital plotting (Optimized for Termux/VT100). Matplotlib available for 3D visualizations
 ### ​🛠 Evolution (Roadmap)
 - ​While the core remains "Silent and Light," astlo is evolving to handle high-complexity simulations.
-- ​Hybrid Integration: Optional numpy support for 3D state-vector arrays and Delta V optimizations.
+- ​Hybrid Integration: Optional numpy support for 3D state-vector arrays and Delta V optimizations. as of astlo v7, Numpy and Matplotlib making it a pure python with plotext and optional numpy and matplotlib for 3D visuals 💚.
 - ​Launch Simulations: Integrating atmospheric drag and multi-stage thrust profiles.
-- ​Advanced Visuals: matplotlib and vpython hooks for 3D orbital animations and launch-to-intercept visualizations.
+- ​Advanced Visuals: matplotlib and vpython hooks for 3D orbital animations and launch-to-intercept visuals.
