@@ -1,7 +1,7 @@
 # astlo
 
 
-======QUICK UPDATE | beta version v7.78.173 in dist folder=======
+======QUICK UPDATE | beta version v7.78.173 in dist folder======= otpional Numpy and Matplotlib for heavy 3D testing phase.
 
 **A real-time and still developing Astronomy/Astrophysics/celestial orbital mechanics engine**
 An extensible curently focused on orbital mechanics library for tracking the debris.
