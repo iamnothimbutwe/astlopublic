@@ -1,7 +1,7 @@
 # astlo
 
 
-======QUICK UPDATE | beta version v7.78.173 in dist folder======= otpional Numpy and Matplotlib for heavy 3D testing phase.
+======HANDLES 3D AND 2D REAL-TIME POSITIONS VISUALIZATIONS OF THE FULL SOLAR SYSTEM ¦11 OBJECTS, 3D JUPITER AND THE INNER PLANETS, INNER PLANETS ONLY ..ALL OPTIONAL..¦ |¦¦| 16 OBJECTS WITH FULL STATES AND VALUES AND OSCULATING ELELMENTS REAL-TIME.J2000 . WITH ZERO PREMADE HEAVY SPACE LIBRARIES. || A LIGHT WEIGHT ¦< 60KB¦ CLI + SDK . BUILT ON MOBILE FOR NAVIGATING THE SOLAR SYSTEM ON THE GO WITHOUT INTERNET OR LIMITED TECH POWER======
 
 **A real-time and still developing Astronomy/Astrophysics/celestial orbital mechanics engine**
 An extensible curently focused on orbital mechanics library for tracking the debris.
@@ -32,7 +32,8 @@ Written in pure Python with plotext and optional matplotlib and numpy support
 - **Parallax angle**, distance in **parsecs**, **light years**
 - **Specific orbital energy (E)** → automatically classifies orbit type:
   - Circle / Ellipse / Parabola / Hyperbola
-- Terminal **orbit plotting** (eccentric orbits) using plotext
+- Terminal **orbit plotting** (eccentric orbits) using plotext 2D
+- Optional 3D Real-time position Renders using matplotlib for the full 11 solar system objects, a 3D view of jupiter and the inner planets, a 3D view of the inner planets.
 - Clean, colored terminal output with tables.
 
 
