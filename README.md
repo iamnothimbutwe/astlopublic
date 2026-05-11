@@ -1,8 +1,8 @@
 # astlo
 
 v7.112.173 features...
-- Separate module mat. Handles all the D rendering and some 2D stuff and returns all the objects.
-- module solexp handles the visuizations Eg the Specific mechanical energy against Distance from the Hiocenter, The real-time true anomaly visual fkr visualizing the current state of the system in one state However, astlo handles both barycentric and Heliocentric
+- Separate module mat. Handles all the 3D rendering and some 2D stuff and returns all the objects.
+- module solexp handles the visuizations Eg the Specific mechanical energy against Distance from the Hiocenter, The real-time true anomaly visual for visualizing the current state of the system in one view. However, astlo handles both barycentric and Heliocentric frames
 - module vect for ¦vectors¦ that handles vectors and other numeric arithmetics. It can be used seperatly in other imports. astlo ¦ CLI-SDK
 - a growing module launchsims for experimenting with diffrent types of engines and mission planning.
 - the command line interface command anmte now can show the real time 2D states of jupiter and the inner planets in one view.
