@@ -1,5 +1,15 @@
 # astlo
 
+v7.112.173 features...
+- Separate module mat. Handles all the D rendering and some 2D stuff and returns all the objects.
+- module solexp handles the visuizations Eg the Specific mechanical energy against Distance from the Hiocenter, The real-time true anomaly visual fkr visualizing the current state of the system in one state However, astlo handles both barycentric and Heliocentric
+- module vect for ¦vectors¦ that handles vectors and other numeric arithmetics. It can be used seperatly in other imports. astlo ¦ CLI-SDK
+- a growing module launchsims for experimenting with diffrent types of engines and mission planning.
+- the command line interface command anmte now can show the real time 2D states of jupiter and the inner planets in one view.
+- Solsynder depends on astlo. 
+
+
+
 
 ======HANDLES 3D AND 2D REAL-TIME POSITIONS VISUALIZATIONS OF THE FULL SOLAR SYSTEM ¦11 OBJECTS, 3D JUPITER AND THE INNER PLANETS, INNER PLANETS ONLY ..ALL OPTIONAL..¦ |¦¦| 16 OBJECTS WITH FULL STATES AND VALUES AND OSCULATING ELELMENTS REAL-TIME.J2000 . WITH ZERO PREMADE HEAVY SPACE LIBRARIES. || A LIGHT WEIGHT ¦< 60KB¦ CLI + SDK . BUILT ON MOBILE FOR NAVIGATING THE SOLAR SYSTEM ON THE GO WITHOUT INTERNET OR LIMITED TECH POWER======
 
