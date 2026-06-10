@@ -1,5 +1,9 @@
 # astlo
 
+
+>..KENYASOVEREIGNTECH.. does not pull any data from external sources ..
+
+
 v7.112.173 features...
 - Separate module mat. Handles all the 3D rendering and some 2D stuff and returns all the objects.
 - module solexp handles the visuizations Eg the Specific mechanical energy against Distance from the Hiocenter, The real-time true anomaly visual for visualizing the current state of the system in one view. However, astlo handles both barycentric and Heliocentric frames
