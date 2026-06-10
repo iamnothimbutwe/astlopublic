@@ -52,8 +52,8 @@ Written in pure Python with plotext and optional matplotlib and numpy support
 
 
 Future plans:
-- Full 3D visualization (Z-plane)
-- Real-time matplotlib animations
+- Full 3D visualization (Z-plane). This is completed.
+- Real-time matplotlib animations. This too has been completed
 - REST API
 
 ### Contacts
@@ -63,7 +63,7 @@ Future plans:
 >...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds 💚👀.
 
 ### Project Status
-- No astropy
+- No astropy or third party space libraries
 - as of astlo v7, Pure Python with plotext and optional numpy and matplotlib, numpy and matplotlib are avilable for 3D visuals.
 - Real-time barycentric shifts implemented
 - SSB + Heliocentric + perifocal for full periods                     - Terminal plotting with plotext: in some orbits like Eris, Because Er
