@@ -1,7 +1,7 @@
 # astlo
 
 
->..KENYASOVEREIGNTECH.. does not pull any data from external sources ..
+>..KENYASOVEREIGNTECH..
 
 
 v7.112.173 features...
