@@ -1,7 +1,7 @@
 # astlo
 
 
->..KENYASOVEREIGNTECH..
+>..KENYASOVEREIGNTECH.. [i make updates to the main private engine almost daily but are unrealised. ill release the stable version once fully stable].
 
 
 v7.112.173 features...
