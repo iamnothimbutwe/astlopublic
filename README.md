@@ -37,7 +37,7 @@ Written in pure Python with plotext and optional matplotlib and numpy support
 - Real-time **barycentric** (SSB) and **heliocentric** position, velocity and gravitational acceleration vectors for **16 bodies**:
   - Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
   - Ceres, Vesta, Pallas, Hygiea, Haumea, Makemake, Eris
-  - real-time position vectors of the Sun relative to the SSB barycenter due to all major planets. Although every celestial object accounts for the SSB.
+  - real-time position vectors of the Sun relative to the SSB barycenter due to all major planets. Although every Solar system object accounts for the SSB.
 - **Perifocal (xy)**, **Heliocentric position vectors and position vectors relative SSB.
 - Distances in **meters, kilometers, AU**
 - **Light delay** (seconds + minutes) from Earth,SSB and Heliocenter
