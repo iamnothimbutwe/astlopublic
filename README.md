@@ -1,9 +1,10 @@
 # astlo
 
 
->..KENYASOVEREIGNTECH.. [i make updates to the main private engine almost daily but are unrealised. ill release the stable version once fully stable].
+>..KENYASOVEREIGNTECH..
 
-version 8.300.300+ is about to be realised
+
+
 
 v7.112.173 features...
 - Separate module mat. Handles all the 3D rendering and some 2D stuff and returns all the objects.
