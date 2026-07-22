@@ -62,7 +62,7 @@ Future plans:
 - Email markmacgh@gmail.com/hecateare@gmail.com
 - Github and Gitlab both @iamnothimbutwe
 
->...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds 💚👀.
+>...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds🍀.
 
 ### Project Status
 - No astropy or third party space libraries
