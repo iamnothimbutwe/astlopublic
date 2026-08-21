@@ -15,6 +15,7 @@ Do you get it?
 
 
 
+
 The internal custom ephemeris part (the solar system objects real-time tracking part) for astlo feels done to me. 
 
 Now i should dive into other Astrophysics Topics.
@@ -23,7 +24,7 @@ wanna help??
 
 
 
-
+v12 is larger than 100MB only becuase of the multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. looking for a way to share it...
 
 v12.0.0 features..
 
