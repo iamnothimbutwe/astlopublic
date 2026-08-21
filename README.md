@@ -24,7 +24,13 @@ wanna help??
 
 
 
-v12 is larger than 100MB only becuase of the multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. looking for a way to share it...
+v12 is larger than 100MB only becuase of the multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. Pypi account under creation
+
+
+
+
+
+
 
 v12.0.0 features..
 
