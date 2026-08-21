@@ -5,6 +5,38 @@
 
 
 
+I have an idea for Astlo. The long term aim of this feature is to allow later generations to access data of past generations. Imagine knowing how a town, an ancestor, a plant or memories from a random person looked like while also knowing the true states of Earth or the Sun or Pluto right now or millions and billions of years into the future or past.
+
+- Anyone shares pictures of Planet Earth because Anything/Everything on Planet Earth is a Feature of Planet Earth.
+- Memories, Plants, People, Life, history, anything about Earth.
+
+Do you get it?
+
+
+
+
+v12.0.0 features..
+
+The following are just the top/front-end features of version v12.0.0 - public..
+For the full explanation of what and how Astlo works, The documentation is under creation.
+
+- Tracking of any Earth satellite X relative any position in the world provided you know the NORAD number of the satellite, Your Geodetic coordinates namely: latitude=(North or South) longitude=(East or West) altitude=(if meters or kilometers, Astlo will be guide the user. This means it can tell you where satellite X is in your local sky and horizon in real-time. Of clurse this feature requires an internet connection fkr the NORAD number lookup
+    
+- a beta internal module still on experimentation using google earthengine-api to access and analyze Earth observation satellite data. 
+
+- Topocentric coordinates of any solar system object including the moon provided you know your latitude, longitude and altitude Geodetic coordinate of your target location. This means it can twll you where the sun or Venus or the moon or any solar system object is in your local sky and horizon through elevation and azimuth angles. in real-time. Offline
+
+- it tells the current moon face and phase and the illumination percentage and element.
+
+- a dedicated module that tells the history and characteristics of any solar system object while also showing available images randomly. For Earth, random images of life, plants, houses and people activities may be shown randomly. This is because Everything on Earth is a feature of Earth. This feature makes Astlo to grow in size very much. The core engine remains <100KB
+
+- rungekutta 4rth order intergration for precision and timestepping billions of years into the future and also the past. A sort of states time machine?
+
+
+
+
+
+
 
 v7.112.173 features...
 - Separate module mat. Handles all the 3D rendering and some 2D stuff and returns all the objects.
@@ -12,7 +44,6 @@ v7.112.173 features...
 - module vect for ¦vectors¦ that handles vectors and other numeric arithmetics. It can be used seperatly in other imports. astlo ¦ CLI-SDK
 - a growing module launchsims for experimenting with diffrent types of engines and mission planning.
 - the command line interface command anmte now can show the real time 2D states of jupiter and the inner planets in one view.
-- Solsynder depends on astlo. 
 
 
 
@@ -24,16 +55,21 @@ An extensible curently focused on orbital mechanics library for tracking the deb
 CLI + SDK.
 Written in pure Python with plotext and optional matplotlib and numpy support
 
-*Copyright © 2026 Macharia [@iamnothimbutwe both on github and gitlab.
-*All rights reserved.
 
-*Unauthorized copying, modification, distribution, or commercial use of this software (or substantial portions of it) is strictly prohibited without express written permission from the author.
-*License two: another Copyright notice
+Copyright Maxharia [@iamnothimbutwe both on github and gitlab]
+
+All rights reserved.
+
+Unauthorized copying, modification, distribution, or commercial use of this software (or substantial portions of it) is strictly prohibited without express written permission from the author.
+
+
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
 
 ### Features
+
+*This are past features but they are still included in the full bundle.
 
 - Real-time **barycentric** (SSB) and **heliocentric** position, velocity and gravitational acceleration vectors for **16 bodies**:
   - Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
@@ -53,38 +89,23 @@ Written in pure Python with plotext and optional matplotlib and numpy support
 - Clean, colored terminal output with tables.
 
 
-Future plans:
-- Full 3D visualization (Z-plane). This is completed.
-- Real-time matplotlib animations. This too has been completed
-- REST API
+
 
 ### Contacts
 - Email markmacgh@gmail.com/hecateare@gmail.com
 - Github and Gitlab both @iamnothimbutwe
+- reddit u/fattick
 
->...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds🍀.
+>...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds.
 
-### Project Status
-- No astropy or third party space libraries
-- as of astlo v7, Pure Python with plotext and optional numpy and matplotlib, numpy and matplotlib are avilable for 3D visuals.
-- Real-time barycentric shifts implemented
-- SSB + Heliocentric + perifocal for full periods                     - Terminal plotting with plotext: in some orbits like Eris, Because Er
-is has a massive orbital inclination i approx 44°, it is "diving" deep below the ecliptic plane. the program only plots X and Y, you will be looking at the shadow of the orbit, not the actual 3D length. some of the distance is shifted to the Z axis.                               - supports optional numpy and matplotlib for 3D visuals..
+
+- Terminal plotting with plotext: in some orbits like Eris, Because Eris has a massive orbital inclination i approx 44°, it is "diving" deep below the ecliptic plane. the program only plots X and Y, you will be looking at the shadow of the orbit, not the actual 3D length. some of the distance is shifted to the Z axis.
+
 
 ### Installation
 
 ```
-??If anyone wants it, contact me and i will send the compiled whl for installation
-use pip install 'whl' to install the whl once recieved.
-Or go to the releases page for the public repo to astlo and download the release then install using pip install.
-
-or direct download & install from terminal:
-pip install https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.61.48/astlo-5.61.48-py3-none-any.whl
-
-download from browser:
-https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.61.48/astlo-5.61.48-py3-none-any.whl
-
-    then install the any.whl using pip install astlo-5.61.48-py3-none-any.whl
+use pip install 'whl' to install the whl once downloaded.
 ```
 
 ### QUICK Start: SDK & Methods
@@ -172,16 +193,6 @@ https://github.com/iamnothimbutwe/astlopublic/releases/download/v5.61.48/astlo-5
 
 ! [[terminal](assets/hello39.jpg)](assets/hello39.jpg)
 
-### other Features
-- full real time Oisculating elements which can be viewed both from the CLI and the SDK through the methods. 
-​- heavy Dependencies: 0% external dependencies. Written in pure Python for maximum portability and zero-latency startup in terminal environments (optimized for Termux).
-- Epoch: J2000 heliocentric ecliptic
-- Custom Bisection/Lambert solver for \Delta V optimization.
-- ​Custom Ephemeris: No SPICE kernels required. High-precision position and velocity vectors calculated from custom-built analytical models.
-​Independence: No astropy or numpy in the core engine. All 64-bit vector math is handled via internal classes. However there is an optional numpy and matplotlib support for 3D visualizations as of astlo v7
-- ​CLI Visualization: Real-time orbital plotting rendered directly in the terminal without matplotlib.CLI-based ASCII/Block rendering for real-time orbital plotting (Optimized for Termux/VT100). Matplotlib available for 3D visualizations
-### ​🛠 Evolution (Roadmap)
-- ​While the core remains "Silent and Light," astlo is evolving to handle high-complexity simulations.
-- ​Hybrid Integration: Optional numpy support for 3D state-vector arrays and Delta V optimizations. as of astlo v7, Numpy and Matplotlib making it a pure python with plotext and optional numpy and matplotlib for 3D visuals 💚.
-- ​Launch Simulations: Integrating atmospheric drag and multi-stage thrust profiles.
-- ​Advanced Visuals: matplotlib and vpython hooks for 3D orbital animations and launch-to-intercept visuals.
+
+
+
