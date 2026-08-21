@@ -1,7 +1,7 @@
 # astlo
 
 
->..KENYASOVEREIGNTECH..
+>..AFRICASOVEREIGNTECH..
 
 
 
@@ -15,12 +15,22 @@ Do you get it?
 
 
 
+The internal custom ephemeris part (the solar system objects real-time tracking part) for astlo feels done to me. 
+
+Now i should dive into other Astrophysics Topics.
+
+wanna help??
+
+
+
+
+
 v12.0.0 features..
 
 The following are just the top/front-end features of version v12.0.0 - public..
 For the full explanation of what and how Astlo works, The documentation is under creation.
 
-- Tracking of any Earth satellite X relative any position in the world provided you know the NORAD number of the satellite, Your Geodetic coordinates namely: latitude=(North or South) longitude=(East or West) altitude=(if meters or kilometers, Astlo will be guide the user. This means it can tell you where satellite X is in your local sky and horizon in real-time. Of clurse this feature requires an internet connection fkr the NORAD number lookup
+- Tracking of any Earth satellite X relative any position in the world provided you know the NORAD number of the satellite, Your Geodetic coordinates namely: latitude=(North or South) longitude=(East or West) altitude=(if meters or kilometers, Astlo will be guide the user. This means it can tell you where satellite X is in your local sky and horizon in real-time. Of clurse this feature requires an internet connection for the NORAD number lookup
     
 - a beta internal module still on experimentation using google earthengine-api to access and analyze Earth observation satellite data. 
 
@@ -75,7 +85,7 @@ Unauthorized copying, modification, distribution, or commercial use of this soft
   - Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
   - Ceres, Vesta, Pallas, Hygiea, Haumea, Makemake, Eris
   - real-time position vectors of the Sun relative to the SSB barycenter due to all major planets. Although every Solar system object accounts for the SSB.
-- **Perifocal (xy)**, **Heliocentric position vectors and position vectors relative SSB.
+- **Perifocal (xy)**, **Heliocentric state vectors and state vectors relative SSB.
 - Distances in **meters, kilometers, AU**
 - **Light delay** (seconds + minutes) from Earth,SSB and Heliocenter
 - Orbital velocity using real time velocity vectors relative SSB (m/s and km/s)
