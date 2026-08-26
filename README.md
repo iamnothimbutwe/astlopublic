@@ -1,9 +1,6 @@
 # astlo
 
 
->..AFRICASOVEREIGNTECH..
-
-
 
 I have an idea for Astlo. The long term aim of this feature is to allow later generations to access data of past generations. Imagine knowing how a town, an ancestor, a plant or memories from a random person looked like while also knowing the true states of Earth or the Sun or Pluto right now or millions and billions of years into the future or past.
 
