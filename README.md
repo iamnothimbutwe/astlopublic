@@ -1,35 +1,27 @@
 # astlo
+This Readme follows a First In Last Out format. Therefore the newest update is at the top of the file.
 
 
+The released version v12.5.5111 is just but the core engine. The full features requires the full engine that is greater than 100MB which github cannot allow.
+The dist folder contains a v12_core = the core engine < 100KB
+
+The Core engine remains less than 100KB
+
+
+# General-previous builds.
 
 I have an idea for Astlo. The long term aim of this feature is to allow later generations to access data of past generations. Imagine knowing how a town, an ancestor, a plant or memories from a random person looked like while also knowing the true states of Earth or the Sun or Pluto right now or millions and billions of years into the future or past.
 
 - Anyone shares pictures of Planet Earth because Anything/Everything on Planet Earth is a Feature of Planet Earth.
 - Memories, Plants, People, Life, history, anything about Earth.
 
-Do you get it?
+
+
+v12_full is larger than 100MB only becuase of the multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. Pypi account under creation
 
 
 
-
-
-The internal custom ephemeris part (the solar system objects real-time tracking part) for astlo feels done to me. 
-
-Now i should dive into other Astrophysics Topics.
-
-wanna help??
-
-
-
-v12 is larger than 100MB only becuase of the multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. Pypi account under creation
-
-
-
-
-
-
-
-v12.0.0 features..
+v12.0.0_full features..
 
 The following are just the top/front-end features of version v12.0.0 - public..
 For the full explanation of what and how Astlo works, The documentation is under creation.
@@ -106,9 +98,9 @@ Unauthorized copying, modification, distribution, or commercial use of this soft
 
 
 ### Contacts
-- Email markmacgh@gmail.com/hecateare@gmail.com
+- astlospacesystems@gmail.com
 - Github and Gitlab both @iamnothimbutwe
-- reddit u/fattick
+- reddit r/kenyaspacenerds
 
 >...**astlo was and is being developed on Linux from a mobile phone**..join us at r/kenyaspacenerds.
 
@@ -121,6 +113,8 @@ Unauthorized copying, modification, distribution, or commercial use of this soft
 ```
 use pip install 'whl' to install the whl once downloaded.
 ```
+
+a better Dictionary is under creation. A dictionary that explains what astlo does and how to make it do it.
 
 ### QUICK Start: SDK & Methods
 ! [[python IDE](assets/hello.jpg)](assets/hello.jpg)
