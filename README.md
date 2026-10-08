@@ -10,6 +10,20 @@ The Core engine remains less than 100KB
 
 # General-previous builds.
 
+v12.10.5111 = added comet support. the engine can also track the comets.
+countdown to next 1P/Halley perihelion approach. ill be 53 years old then 🍀. maybe i wont even make it to my 50's.
+
+
+Did you know that 1P/Halley comet has a final perihelion distance of 0.6AU. This comet gets closer to the sun more than Earth does at 0.98AU
+Dwarf planet Eris is waaay farther out than 1P/Halley.
+
+1P/Halley
+i know my grandparents will not be around during its next perihelion approach.
+i know maybe my parents will not be around during its next perihelion approach. 
+Peace though 🍀.
+
+
+
 I have an idea for Astlo. The long term aim of this feature is to allow later generations to access data of past generations. Imagine knowing how a town, an ancestor, a plant or memories from a random person looked like while also knowing the true states of Earth or the Sun or Pluto right now or millions and billions of years into the future or past.
 
 - Anyone shares pictures of Planet Earth because Anything/Everything on Planet Earth is a Feature of Planet Earth.
