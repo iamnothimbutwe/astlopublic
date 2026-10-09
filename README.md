@@ -17,10 +17,7 @@ countdown to next 1P/Halley perihelion approach. ill be 53 years old then 🍀. 
 Did you know that 1P/Halley comet has a final perihelion distance of 0.6AU. This comet gets closer to the sun more than Earth does at 0.98AU
 Dwarf planet Eris is waaay farther out than 1P/Halley.
 
-1P/Halley
-i know my grandparents will not be around during its next perihelion approach.
-i know maybe my parents will not be around during its next perihelion approach. 
-Peace though 🍀.
+1P/Halley.
 
 
 
