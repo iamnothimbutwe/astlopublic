@@ -18,7 +18,7 @@ Dwarf planet Eris is waaay farther out than 1P/Halley.
 
 comets supported.
 1P/Halley.
-Apophis
+Apophis = track and visualize the upcoming April 13 Apophis and Earth close approach 
 and more to be added...
 
 v12.10.5111 = NORAD numbers are nowadays issued as 6 digit numbera. updated Eo module to track 6 digit catalogue numbers. therefore it supoorts both json and tle two line elemwnt file formats 
