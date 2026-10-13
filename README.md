@@ -10,11 +10,11 @@ The Core engine remains less than 100KB
 
 # General-previous builds.
 
-v12.10.5111 = added comet support. the engine can also track the comets.
+- v12.10.5111 = added comet support. the engine can also track the comets.
 countdown to next 1P/Halley perihelion approach. ill be 53 years old then 🍀. maybe i wont even make it to my 50's.
-
-Did you know that 1P/Halley comet has a final perihelion distance of 0.6AU. This comet gets closer to the sun more than Earth does at 0.98AU
-Dwarf planet Eris is waaay farther out than 1P/Halley.
+- plus v12.10.5111 has a way for timestepping to day/second/hour/year X then visualizing the result vectors in either 2D or 3D using integraters like rk4 4rth order integration. Examole = visualizing the upcomimg 2029 Apophis and Earth close approach 2D/3D single (apophis and Earth orbits visuals). or visualizing the state of jupiter and inner solar system after time X. or the whole solar system.
+- Did you know that 1P/Halley comet has a final perihelion distance of 0.6AU. This comet gets closer to the sun more than Earth does at 0.98AU
+- Dwarf planet Eris is waaay farther out than 1P/Halley.
 
 comets supported.
 1P/Halley.
