@@ -8,8 +8,9 @@ The dist folder contains a v12_core = the core engine < 100KB
 The Core engine remains less than 100KB
 
 
-# General-previous builds.
-
+# General-previous builds and features.
+- focusing on launchsims module and upgrading core to supoort objects outside the Solar system = Stars.
+- added objects = (APOPHIS,HALLEY,BENNU,EROS) and a dedicated method that focuses on visualizing Near Earth Objects like Apophis or Bennu in their true orbits.
 - v12.10.5111 = added comet support. the engine can also track the comets.
 countdown to next 1P/Halley perihelion approach. ill be 53 years old then 🍀. maybe i wont even make it to my 50's.
 - plus v12.10.5111 has a way for timestepping to day/second/hour/year X then visualizing the result vectors in either 2D or 3D using integraters like rk4 4rth order integration. Examole = visualizing the upcomimg 2029 Apophis and Earth close approach 2D/3D single (apophis and Earth orbits visuals). or visualizing the state of jupiter and inner solar system after time X. or the whole solar system.
