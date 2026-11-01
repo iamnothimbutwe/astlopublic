@@ -9,7 +9,8 @@ The Core engine remains less than 100KB
 
 - The full astlo engine is larger than 100MB only becuase of the details/history/multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. Pypi account under creation
 
-- child wheels and repos to astlo the parent. [astlohorizons, valley, solsynder]
+- child wheels and repos to astlo the parent. [astlohorizons, valley, solsynder]. all these child packages to astlo require astlo >= v12.5 to be installed first to install and run them.
+
 - For Valley installation, use pip install --user valley... the site packages is usually read-only this flag ensures the files are put in a folder the user has permissions to read and write to...
 
 
