@@ -6,9 +6,11 @@ The released version v12.5.5111 is just but the core engine. The full features r
 The dist folder contains a v12_core = the core engine < 100KB
 
 The Core engine remains less than 100KB
-
+The full astlo engine is larger than 100MB only becuase of the details/history/multimedia part (the part with the pictures and videos). Therefore i cannot upload it to github. Pypi account under creation
 
 # General-previous builds and features.
+- released astlo v13.0.51101_core is the core engine.
+- The updated wheels and READMEs to astlo and its child repos are available in the dist foolder..The CLIs are self explanatory from the --help option availablenin every CLI command. current astlo version is v13.0.51101 has added objects [Halley,Apophis,Bennu,Eros]
 - focusing on launchsims module and upgrading core to supoort objects outside the Solar system = Stars.
 - added objects = (APOPHIS,HALLEY,BENNU,EROS) and a dedicated method that focuses on visualizing Near Earth Objects like Apophis or Bennu in their true orbits.
 - v12.10.5111 = added comet support. the engine can also track the comets.
