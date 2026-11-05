@@ -13,9 +13,10 @@ The Core engine remains less than 100KB
 
 - For Valley installation, use pip install --user valley... the site packages is usually read-only this flag ensures the files are put in a folder the user has permissions to read and write to...
 
-
+- Access the latest astLo on the main repo. The user can pull and generate a .whl file.
 
 # General-previous builds and features.
+
 - released astlo v13.0.51101_core is the core engine.
 - The updated wheels and READMEs to astlo and its child repos are available in the dist foolder..The CLIs are self explanatory from the --help option availablenin every CLI command. current astlo version is v13.0.51101 has added objects [Halley,Apophis,Bennu,Eros]
 - focusing on launchsims module and upgrading core to supoort objects outside the Solar system = Stars.
