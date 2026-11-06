@@ -19,6 +19,9 @@ The Core engine remains less than 100KB
 
 # General-previous builds and features.
 
+- fixed the labels that were not updating correclty. Example the respective day label in command rtime with rk4 and days options.
+- valley.topocentric command now is fully automatic. Like you can just pass the name of the object and valley willnused the stored geodetic values passed by the user during installation.
+
 - released astlo v13.0.51101_core is the core engine.
 - The updated wheels and READMEs to astlo and its child repos are available in the dist foolder..The CLIs are self explanatory from the --help option availablenin every CLI command. current astlo version is v13.0.51101 has added objects [Halley,Apophis,Bennu,Eros]
 - focusing on launchsims module and upgrading core to supoort objects outside the Solar system = Stars.
