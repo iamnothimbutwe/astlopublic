@@ -1,22 +1,20 @@
-# Astlo
+
+0
 # version = v13.0.51101_Full
-# Required by astlohorizons, solsynder, valley, r/kenyaspacenerds
-# Astlo Space Systems, r/kenyaspacenerds, NASA, NASA-JPL, ESA, Venera-missions. credit For the images and videos.
+# Required by astlohorizons, solsynder, valley, r/kenyaspacener# Astlo Space Systems, r/kenyaspacenerds, NASA, NASA-JPL, ESA, Venera-missions. credit For the images and videos.
 
 
-
-ASTLO
+AS
 =====
 
-Astlo is a CLI and SDK. This file shows the CLI part for astlo and everything related to astlo, how to navigate it/them and what the commands/other packages relying on aslto do
+Astlo is a CLI and SDK. This file shows the CLI part for astlo and everything related to astlo to navigate it/them and what the commands/other packages relying on aslto do
 
 Note that the current version is v13.0.51101. unreleased. The file therefore contains information about he current version.
 
 CLI = Command Line Interface
 
-CLI: The current setting of the CLI is just basic stuff. having plans to make it more appealing to the user
-
-continous updates to the main engine are always taking place.
+CLI: The current setting of the CLI is just basic stuff. having plans to make it more appealing to 
+continous updates to the main engine are always taking placastlo CLI is caps insensitive
 
 
 
@@ -26,6 +24,7 @@ continous updates to the main engine are always taking place.
 
 NEOs = Near Earth Objects
 SSB = Solar System Barycenter
+EMB = Earth Moon Barycenter
 
 
 Module astlotalk in Astlo-environment = This module allows using astlohorizons to help astlo be kore precise. use the talk() method.
@@ -42,6 +41,8 @@ Solar system COMMAND rtime:
 . This command allows viewing various solar system objects states in a human readable format. it uses SSB, Heliocentric, EMB frames accordingly to the object name passed.
 
 . It also includes a 4th order intergration rk4 Rungekutta 4rth order that can timestep to any day X. if the time step required is of seconds or hours or years, convert them into days firs before passing the days value.
+
+. if the object required is the moon-Luna, use solsynder or astlohorizons to get the EMB details as well as the current face and phase of the moon. Astlo only shows the mean states for Luna.
 
 It has options...
 	option name: 
@@ -236,7 +237,7 @@ The final usage for this Command will be showed at the final option.
 	astlo for precise topocentric states with explanation |1 minute time delay| = ¦astlo topocentric -n object -lat value in degrees -long value in degrees -alt value in meters -expl y -eph y¦
 
 	=#=#=#=#=#=#=#
-	Use Valley if the above explanation is confusing. A better version of this topocentric method is available there. Take notes while you stargaze
+	Use Valley if the above explanation is confusing. A better version of this topocentric method is available there. Take notes while you stargaze. ¦valley topocentric -n object_name -expl y¦ or without an explanation for instant results.
 	=#=#=#=#=#=#=#
 
 
@@ -249,5 +250,81 @@ Now entering Earth orbiting satellites except Luna-moon
 EO = Earth Orbiting
 
 EO satellite COMMAND satellite
+	options catalogue number NORAD number:
+	--ctlog_number, -ctn The NORAD number of the Earth orbting satellite
+
+	option latitude:
+	################
+	--latitude, -lat The latitude of your location in degrees. use a negative sign to indicate South.
+
+	option longitude:
+	#################
+	-long, --longitude. East or West of the Equator. The passed value should be in degrees.
+	Use a negative sign to indicate West.
+	type: int/float
+
+	option altitude:
+	################
+	-alt, --altitude. the altitude of your location in kilometers above sea level.
+	type: int/float
+
+	option explain:
+	###############
+	-expl, --explain. if you want astlo to explain to you in raw-text whatever is happening in your local sky. Solar System Object.
+	This option requires a time delay of one minute to allow your location to rotate 0.25° East to allow astlo determine the state of the object and actual explanation.
+	type: any
+
+	USAGE:
+	######
+	astlo satellite -ctn int -lat degrees/float -long degrees/float -alt float/kilometers -exply y
 
 
+-The Moon-
+To view the moon, use solsynder-CLI package which requires astlo. after solsynder prints to the screen, below the table you can find details of the Earth Moon Barycenter EMB.
+
+
+
+command = astlohorizons luna ¦ this command also allows the user to see the Earth Moon Barycenter details. it reauires astlohorizons installed first.
+
+command = solsynder pin ¦ this command requires solsynder installed first.
+
+
+_____LEFT_OUT_DELIBERATELY_TO_ALLOW_ADDITON_OF_MORE_ASTLOCLI_COMMANDS_____
+
+
+
+
+	SOLSYNDER - The Solar System Calendar
+#################################################
+Solsynder is a child package to astLo. it allows viewing thebwhole solar system in one view. The one view is a coloured table that includes all 22 objects including Luna. it also automatically renders a 2D plot of the inner Solar system Sun,Mercury,Venus,Earth and Mars in Real-time.
+
+it has two modes. Barycentric and Heliocenteic
+it only has one command rich with options but the rendering part should be ignored even though it works. if you want the 2D and 3D renders, best use is astlo.anmte CLI command or astlo-SDK.
+it is caps insensitive
+
+COMMAND pin:
+- will only highlight the best options.
+- default is Heliocwntric mode. Usage = solsynder pin
+
+	option frame:
+	#############
+	Two frames are supported currently with Topocentric mode coming later. (Heliocentric and Barycentric. H, B). default is Heliocentri
+	-fr, --frame. The frame required. use B for barycentric and ignore any of the options if Heliocentic.
+	usage = solsynder pin -fr b ¦ solsynder pin ¦ solsynder pin -fr h
+	type str
+
+
+	option days:
+	############
+	You can time step in solsynder too.
+	This option only works with the Barycentric frame B/b
+	-d, --days. The amount of days to timestep to. you can timestep to also a second or a minute or an hour or a year. just convert them into days before passing the value.
+	usage = solsynder pin -fr b -d int/float
+	type int/float
+
+
+
+
+	VALLEY - Take notes/secrets while you stargaze. This package can also genrate appropriate json files via astlo. You can also view your local sky¦Topocentric¦ using NASA files automatically without the complicated steps for astlo-SDK. Integration between astlo and astlohorizons is taking place.
+
+it is alos a child package to astlo meaning it requires astlo to run and install.
