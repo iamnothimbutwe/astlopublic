@@ -4,7 +4,7 @@
 # Required by astlohorizons, solsynder, valley, r/kenyaspacener# Astlo Space Systems, r/kenyaspacenerds, NASA, NASA-JPL, ESA, Venera-missions. credit For the images and videos.
 
 
-AS
+ASTLO
 =====
 
 Astlo is a CLI and SDK. This file shows the CLI part for astlo and everything related to astlo to navigate it/them and what the commands/other packages relying on aslto do
