@@ -17,8 +17,11 @@ The Core engine remains less than 100KB
 - The LICENSE used is the polyform Noncommercial LICENSE in the main repo astLo.
 - use the valley package in the dist folder if you just want to automatically get the topocentric NASA-JPL states. valley topocentric --help
 
+- Very open to contributions 🍀
+
 # General-previous builds and features.
-- working on a version v15.0 for release. it includes stars from the Gaia_ESA catalogue,some stellar kinematics, and a module for a deep dive into the general Physics.
+- the astlo v13 in the dist folder/directory may contain errors and bugs that the current unrealeased version is free from.
+- working on a version v15.0 for release. it includes stars from the Gaia_ESA catalogue,some stellar kinematics, and a **growing** module for a deep dive into the general Physics.
 - Note that astlo has a helper astlohorizons that adds a layer of accuracy from NASA-JPL data.
 - Nots that astlo has its own custome Solar System ephemeris. It shoild not be used for real mission planning. Although in the future after the addition of all the pertubations after gravity, astlo can be used in real space mission planning. 🍀
 - fixed the labels that were not updating correclty. Example the respective day label in command rtime with rk4 and days options.
